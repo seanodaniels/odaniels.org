@@ -53,9 +53,6 @@ const index = () => {
                 </div>
               </section>
               {/* client info end */}
-
-              <Footer />
-              {/* Common Footer call here */}
             </div>
             {/* End fade */}
           </div>
@@ -63,6 +60,9 @@ const index = () => {
         </div>
       </div>
       {/* End main continer */}
+      {/* Start Common Footer  */}
+        <Footer />
+      {/* End Common Footer  */}
     </section>
   );
 };

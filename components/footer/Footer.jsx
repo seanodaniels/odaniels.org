@@ -1,20 +1,19 @@
+import Social from "../social/Social";
+
 const Footer = () => {
   return (
-    <footer className="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-black">
+    <footer className="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-[#000000] pt-6 pb-6">
       <div className="container">
-        {/* <p className="text-center py-6 text-gray-lite  dark:text-color-910 ">
-          &copy; {new Date().getFullYear()} All Rights Reserved by{" "}
-          <a
-            className="hover:text-[#c94ff8] duration-300 transition"
-            href="https://themeforest.net/user/ib-themes"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            ib-themes
-          </a>
-          .
-        </p> */}
+        <p className="text-center py-6 text-gray-lite  dark:text-color-910 ">
+          &copy; {new Date().getFullYear()} Sean O'Daniels.
+        </p>
       </div>
+      <div className="flex flex-col items-center justify-center">
+        <div className="flex space-x-3">
+          <Social />
+        </div>
+      </div>
+
     </footer>
   );
 };

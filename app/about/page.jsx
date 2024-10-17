@@ -12,7 +12,7 @@ export const metadata = {
 };
 const index = () => {
   return (
-    <div className="bg-homeBg min-h-screen dark:bg-homeBg-dark bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full">
+    <div className="bg-homeBg min-h-screen dark:bg-homeBg-dark bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full pb-6">
       {/* End Head for Seo */}
 
       <Header />
@@ -22,7 +22,7 @@ const index = () => {
         <div data-aos="fade">
           {/* Start top about info */}
           <div className="py-12">
-            <h2 className="after-effect after:left-52 mt-12 lg:mt-0 ">
+            <h2 className="after-effect after:left-52 mt-0 lg:mt-0 ">
               About Me
             </h2>
             {/* Page Title */}
@@ -51,13 +51,14 @@ const index = () => {
           </div> */}
           {/* End Client Slider */}
 
-          {/* Start Common Footer  */}
-          <Footer />
-          {/* End Common Footer  */}
+
         </div>
         {/* End fade effect */}
       </div>
       {/* End container */}
+      {/* Start Common Footer  */}
+        <Footer />
+      {/* End Common Footer  */}
     </div>
   );
 };

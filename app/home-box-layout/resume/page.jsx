@@ -4,12 +4,12 @@ import HeaderTwoNavigation from "@/components/header/HeaderTwoNavigation";
 import HeaderTwo from "@/components/header/HeaderTwo";
 import Footer from "@/components/footer/Footer";
 import ResumeCardTwo from "@/components/Resume/ResumeCardTwo";
+import LineItem from "@/components/Resume/LineItem";
 import Tag from "@/components/tag/Tag";
-import siteTitle from "@/data/siteTitle";
 
 export const metadata = {
   title:
-    `Resume || ${siteTitle.title}`,
+    "Resume || Bostami - Tailwind CSS  Personal Portfolio React Nextjs Template",
 };
 const index = () => {
   return (
@@ -43,12 +43,13 @@ const index = () => {
 
               <div className="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-4 sm:px-5 md:px-10 lg:px-20">
                 <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
-                  {/* <div className="col-span-1">
+                  <div className="col-span-1">
                     <h4 className="text-5xl dark:text-white font-medium mb-6">
                       Working Skills
                     </h4>
                     <LineItem />
-                  </div> */}
+                    {/* experience percent items */}
+                  </div>
                   <div className="col-span-1">
                     <h4 className="text-5xl dark:text-white font-medium mb-8">
                       Knowledges
@@ -62,9 +63,6 @@ const index = () => {
                 </div>
               </div>
               {/* End Skills */}
-
-              <Footer />
-              {/* Common Footer call here */}
             </div>
             {/* End fade */}
           </div>
@@ -72,6 +70,9 @@ const index = () => {
         </div>
       </div>
       {/* End main continer */}
+      {/* Start Common Footer  */}
+        <Footer />
+      {/* End Common Footer  */}
     </section>
   );
 };

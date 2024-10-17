@@ -34,15 +34,15 @@ const Works1 = () => {
   // End dynamic portfolio with slug
 
   // start filter data based on function
-  const [test, setTest] = useState("All");
+  const [test, setTest] = useState("Web App");
 
   const handleSearch = (text) => {
     handleData(text);
     setTest(text);
   };
   useEffect(() => {
-    setTest("All");
-    handleData("All");
+    setTest("Web App");
+    handleData("Web App");
   }, []);
 
   const [data, setData] = useState(portfolioData);
@@ -71,19 +71,19 @@ const Works1 = () => {
         </li>
         <li
           className={`${
-            test === "Video" ? "text-[#c94ff8]" : "fillter-btn"
-          } mr-4 md:mx-4`}
-          onClick={() => handleSearch("Video")}
-        >
-          Video
-        </li>
-        <li
-          className={`${
             test === "Web App" ? "text-[#c94ff8]" : "fillter-btn"
           } mr-4 md:mx-4`}
           onClick={() => handleSearch("Web App")}
         >
           Web Apps
+        </li>
+        {/* <li
+          className={`${
+            test === "Video" ? "text-[#c94ff8]" : "fillter-btn"
+          } mr-4 md:mx-4`}
+          onClick={() => handleSearch("Video")}
+        >
+          Video
         </li>
         <li
           className={`${
@@ -98,7 +98,7 @@ const Works1 = () => {
           onClick={() => handleSearch("UI/UX")}
         >
           Graphic Design
-        </li>
+        </li> */}
       </ul>
       {/* End portfolio filter tab */}
 

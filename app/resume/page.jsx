@@ -12,7 +12,7 @@ export const metadata = {
 };
 const index = () => {
   return (
-    <div className="bg-homeBg min-h-screen dark:bg-homeBg-dark bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full">
+    <div className="bg-homeBg min-h-screen dark:bg-homeBg-dark bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full pb-6">
       {/* End Head for Seo */}
 
       <Header />
@@ -23,7 +23,7 @@ const index = () => {
           <div className="container sm:px-5 md:px-10 lg:px-20 ">
             <div className="py-12 px-4">
               {/*page title here */}
-              <h2 className="after-effect after:left-44 mb-[40px] mt-12 lg:mt-0">
+              <h2 className="after-effect after:left-44 mb-[40px] mt-0 lg:mt-0">
                 Resume
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-6 ">
@@ -56,13 +56,13 @@ const index = () => {
             </div>
           </div>
           {/* End Skills */}
-
-          {/* call footer */}
-          <Footer />
         </div>
         {/* End fade effect */}
       </div>
       {/* End container */}
+      {/* Start Common Footer  */}
+        <Footer />
+      {/* End Common Footer  */}
     </div>
   );
 };

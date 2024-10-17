@@ -15,6 +15,22 @@ module.exports = [
     description:
       "BookHarbr is a simple app created to showcase the my work in Javascript, React, Redux, Redux, MongoDB, Mongoose, Express, Axios, bcrypt, jsonwebtoken, Jest, and Flexbox. The book search is powered by the OpenLibrary.org API. Information from that API is used to build the BookHarbr book lists. The lists and user information are stored at Mongo Atlas.",
   },
+  {
+    id: "2",
+    tag: "Web App",
+    // tag: "React, Javascript, Redux, Express, MongoDB &amp; Mongoose, React Router, bcrypt, jsonwebtoken, Jest, Flexbox",
+    title: "Patientor",
+    img: "/images/work_images/small/generic-app.png",
+    imgSmall: "/images/work_images/small/generic-app.png",
+    bg: "#FFF0F0",
+    client: "Self",
+    github: "https://github.com/seanodaniels/patient-portal",
+    langages: "Typescript, React, Express, MongoDB",
+    link: "https://patient-portal-fso.fly.dev",
+    linkText: "patient-portal-fso.fly.dev",
+    description:
+      "Patientor was the final project for The University of Helsinki's Typescript module. By the time I completed it, I learned to create a Typescript app within React and Express, and learned concepts such as Type Narrowing, Type Assertion, Utility Types, Type Guards and Type Predicates, Unions, and more.",
+  },
   // {
   //   id: "2",
   //   tag: "Web Design",
