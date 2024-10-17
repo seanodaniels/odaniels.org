@@ -1,17 +1,9 @@
 module.exports = [
   {
-    id: "1",
-    icon: "/images/icons/icon-1.svg",
-    title: "Ui/Ux Design",
-    des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
-    color: "#D566FF",
-    bg: "#FCF4FF",
-  },
-  {
     id: "2",
     icon: "/images/icons/icon-2.svg",
-    title: "App Development",
-    des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+    title: "Code",
+    des: "I have a rich history in Web Development and a budding passion for React and Typescript. ",
     color: "#DDA10C",
     bg: "#FEFAF0",
   },

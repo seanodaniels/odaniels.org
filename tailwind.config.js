@@ -41,12 +41,12 @@ module.exports = {
     },
 
     extend: {
-      backgroundImage: {
-        homeBg: "url('/images/background/bg.jpg')",
-        "homeBg-dark": "url('/images/background/bg-dark.jpg')",
-        "homeTwoBg-dark": "url('/images/background/bgtwo.jpg')",
-        previewBg: "url('/images/preview/previewbg.png')",
-      },
+      // backgroundImage: {
+      //   homeBg: "url('/images/background/bg.jpg')",
+      //   "homeBg-dark": "url('/images/background/curls.webp')",
+      //   "homeTwoBg-dark": "url('/images/background/bgtwo.jpg')",
+      //   previewBg: "url('/images/preview/previewbg.png')",
+      // },
       colors: {
         gray: "#F3F6F6",
         "gray-lite": "#44566C",
