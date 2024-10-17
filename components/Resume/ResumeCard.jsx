@@ -12,7 +12,7 @@ const ResumeCard = () => {
           <div className="flex items-center space-x-2 mb-4">
             <div className="text-6xl text-[#c94ff8]">{item.icon}</div>
             <h4 className="text-5xl dark:text-white font-medium">
-              {item.title}
+              {item.title} (theme: {theme})
             </h4>
           </div>
           {/* end flex */}
