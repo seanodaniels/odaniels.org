@@ -50,6 +50,7 @@ module.exports = [
         id: 1,
         date: "2022 - present",
         title: "Various Contract Work",
+        place: " ",
         bg: "#EEF5FA",
       },
 
