@@ -13,7 +13,7 @@ const ResumeCard = () => {
             <div className="text-6xl text-[#c94ff8]">{item.icon}</div>
             <h4 className="text-5xl dark:text-white font-medium">
               {item.title}
-            </h4>
+            </h4> 
           </div>
           {/* end flex */}
 

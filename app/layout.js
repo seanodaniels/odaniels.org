@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     AOS.refresh();
   }, []);
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en">
       <body>
         <ToastContainer
           position="top-right"

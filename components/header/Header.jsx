@@ -88,7 +88,7 @@ const Header = () => {
                 </li>
               ))}
               {/* light dark mode button start */}
-              {/* <DarkMode /> */}
+              <DarkMode />
               {/* light dark mode button end */}
             </ul>
             {/* Menu items end  */}
