@@ -3,9 +3,11 @@ import Social from "../social/Social";
 
 const Hero = () => {
   return (
+    // <div
+    //   className="flex flex-col items-center h-[100vh] md:h-[90vh] lg:h-[80vh] xl:h-[71vh]  justify-center"
+    // >
     <div
-      className="flex flex-col items-center h-[100vh] md:h-[90vh] lg:h-[80vh] xl:h-[71vh]  justify-center"
-      data-aos="fade"
+      className="flex flex-col items-center pt-[5rem] justify-center"
     >
       <Image
         className="rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px]"
