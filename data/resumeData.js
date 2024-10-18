@@ -4,45 +4,6 @@ import { FaAward, FaCertificate } from "react-icons/fa";
 module.exports = [
   {
     id: 1,
-    title: "Education and Certificates",
-    icon: <FaCertificate />,
-    items: [
-      {
-        id: 1,
-        date: "2024",
-        title: "Full Stack Open ",
-        place: "University of Helsinki",
-        bg: "#FFF4F4",
-      },
-
-      {
-        id: 2,
-        date: "2017",
-        title: "App Development Bootcamp ",
-        place: "Tech Talent South",
-        bg: "#FFF4F4",
-      },
-
-      {
-        id: 3,
-        date: "2023",
-        title: "Certified Associates in Project Managment ",
-        place: "Project Management Institute",
-        bg: "#FFF4F4",
-      },
-
-      {
-        id: 4,
-        date: "2023",
-        title: "Professional Scrum Master I ",
-        place: "Scrum.org",
-        bg: "#FFF4F4",
-      },
-
-    ],
-  },
-  {
-    id: 2,
     title: "Experience",
     icon: <MdOutlineSchool />,
     items: [
@@ -50,7 +11,7 @@ module.exports = [
         id: 1,
         date: "2022 - present",
         title: "Various Contract Work",
-        place: " ",
+        place: "Self-employed",
         bg: "#EEF5FA",
       },
 
@@ -88,4 +49,44 @@ module.exports = [
 
     ],
   },
+  {
+    id: 2,
+    title: "Education and Certificates",
+    icon: <FaCertificate />,
+    items: [
+      {
+        id: 1,
+        date: "2024",
+        title: "Full Stack Open Course",
+        place: "University of Helsinki",
+        bg: "#FFF4F4",
+      },
+
+      {
+        id: 2,
+        date: "2023",
+        title: "Certified Associates in Project Managment ",
+        place: "Project Management Institute",
+        bg: "#FFF4F4",
+      },
+
+      {
+        id: 3,
+        date: "2023",
+        title: "Professional Scrum Master I ",
+        place: "Scrum.org",
+        bg: "#FFF4F4",
+      },
+
+      {
+        id: 4,
+        date: "2017",
+        title: "App Development Bootcamp ",
+        place: "Tech Talent South",
+        bg: "#FFF4F4",
+      },
+
+    ],
+  },
+
 ];
