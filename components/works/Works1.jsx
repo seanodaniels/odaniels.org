@@ -150,7 +150,7 @@ const Works1 = () => {
             {/* close button */}
             <BsXCircle
               onClick={() => setIsOpen(false)}
-              className="text-7xl cursor-pointer  absolute right-2 -top-12 md:-right-10 md:-top-6 z-50  text-white transition transform hover:rotate-45 duration-300 ease-in-out "
+              className="text-7xl cursor-pointer  absolute right-2 md:-right-10 md:-top-6 z-50  text-white transition transform hover:rotate-45 duration-300 ease-in-out "
             />
             <h2 className="text-[#c94ff8] dark:hover:text-[#c52bfc] text-5xl text-left font-bold">
             {singleData?.title}
