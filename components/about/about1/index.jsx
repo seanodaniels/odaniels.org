@@ -36,7 +36,11 @@ const index = () => {
           <p className="text-gray-lite  dark:text-color-910 leading-7">
             I&apos;m a long-time Web Developer who has recently transitioned 
             to <strong>Software Engineering</strong> after completing the
-            Full Stack Open course at the University of Helsinki. I always 
+            Full Stack Open course at the University of Helsinki. My current 
+            focus is the <strong>React library using Javascript and Typescript</strong>. 
+            
+          </p>
+          <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">I always 
             seek to challenge &amp; improve myself, be it through bettering
             my programming skills, learning new languages and databases, 
             or <a 
