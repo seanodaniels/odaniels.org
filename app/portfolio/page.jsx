@@ -6,7 +6,7 @@ import siteTitle from "@/data/siteTitle";
 
 export const metadata = {
   title:
-    `Works || ${siteTitle.title}`,
+    `Portfolio || ${siteTitle.title}`,
 };
 const index = () => {
   return (

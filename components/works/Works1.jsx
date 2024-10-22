@@ -57,22 +57,37 @@ const Works1 = () => {
     }
   };
 
+  const makeTitle = (test) => {
+    // Customize title name here.
+    switch (test) {
+      case "All":
+        return null
+      default: 
+        return test
+    }
+  }
+
   return (
     <>
       {/* Portfilo fillter tab start */}
-      <ul className="mt-[40px] flex w-full justify-start md:justify-end flex-wrap font-medium pb-12">
+      <h2 className="after-effect  after:left-48 mt-0 lg:mt-0">
+        {
+          makeTitle(test)       
+        } Portfolio
+      </h2>
+      <ul className="mt-1 flex w-full justify-end md:justify-end flex-wrap font-medium pb-12">
         <li
           className={`${
             test === "All" ? "text-[#c94ff8]" : "fillter-btn "
-          } mr-4 md:mx-4`}
+          } mr-2`}
           onClick={() => handleSearch("All")}
         >
           All
         </li>
         <li
           className={`${
-            test === "Web App" ? "text-[#c94ff8]" : "fillter-btn"
-          } mr-4 md:mx-4`}
+            test === "Web App" ? "text-[#c94ff8] border-l-2 border-[#333333]" : "fillter-btn"
+          } mx-2 px-4  border-l-2 border-[#333333]`}
           onClick={() => handleSearch("Web App")}
         >
           Web Apps

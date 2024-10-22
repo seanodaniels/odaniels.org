@@ -25,8 +25,8 @@ module.exports = [
   },
   {
     id: "03",
-    name: "Works",
-    routePath: "/works",
+    name: "Portfolio",
+    routePath: "/portfolio",
     icon: <FiCodesandbox />,
   },
   {
