@@ -20,7 +20,7 @@ const Hero = () => {
       <h3 className="mt-6 mb-1 text-5xl font-semibold dark:text-white">
         Sean O'Daniels
       </h3>
-      <p className="mb-4 text-[#7B7B7B]">Software Engineer</p>
+      <p className="mb-4 text-[#7B7B7B]">Software Engineer / Full-Stack Dev / Web Dev</p>
       {/* Avatar Info End */}
 
       {/* Social information start */}
