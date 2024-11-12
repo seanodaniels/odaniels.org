@@ -1,10 +1,12 @@
 import {
   FaYoutube,
-  FaFacebookF,
   FaLinkedinIn,
   FaGithub,
   FaSoundcloud,
 } from "react-icons/fa";
+import {
+  FaBluesky
+} from "react-icons/fa6";
 
 const Social = () => {
   const socialContent = [
@@ -22,12 +24,18 @@ const Social = () => {
     },
     {
       id: 3,
+      link: "https://bsky.app/profile/odaniels.org",
+      icon: <FaBluesky />,
+      iconClass: "text-[#e14a84]",
+    },
+    {
+      id: 4,
       link: "https://soundcloud.com/seanodaniels",
       icon: <FaSoundcloud />,
       iconClass: "text-[#e14a84]",
     },
     {
-      id: 4,
+      id: 5,
       link: "https://www.youtube.com/@od20_",
       icon: <FaYoutube />,
       iconClass: "text-[#1C9CEA]",

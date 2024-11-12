@@ -33,7 +33,7 @@ module.exports = [
 
       {
         id: 4,
-        date: "2003-2006 and 2011-2012",
+        date: "2011-2012",
         title: "Manager, Web Development and Design",
         place: "Memphis Grizzlies NBA, Memphis TN",
         bg: "#EEF5FA",
@@ -46,6 +46,16 @@ module.exports = [
         place: "Lokion, Memphis TN",
         bg: "#EEF5FA",
       },
+
+      {
+        id: 6,
+        date: "2003-2006",
+        title: "Manager, Web Development and Design",
+        place: "Memphis Grizzlies NBA, Memphis TN",
+        bg: "#EEF5FA",
+      },
+
+
 
     ],
   },
